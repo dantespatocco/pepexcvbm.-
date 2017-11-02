@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html class="LetraGeneral">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="fonts/style.css">
+    <link rel="stylesheet" href="css/extra.css">
+    <link rel="stylesheet" href="css/unslider.css">
+    <title></title>
+    <link rel="stylesheet" href="estilos.css">
+    <script type="text/javascript" src="js/jquery.min.js">
+    </script>
+    <script type="text/javascript" src="js/unslider.js"></script>
+</head>
+
+<body class="fondo">
+    <div class="fondo"></div>
+    <div class="la caja"></div>
+    <div class="cajaGris">
+        <img class="photo" src="photo.jpg" alt="image">
+
+        <ul class="ah">
+            <li><a href="#Presentacion">Presentación</a></li>
+            <li><a href="#Formacion">Formación</a></li>
+            <li><a href="#Experiencia">Experiencia</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+        </ul>
+    </div>
+    <div class="cajaRoja1" id="Presentacion">
+        <h1>¿Quien soy?</h1>
+        <h2>Dante Spatocco</h2>
+        <ul class="pepe">
+
+            <li>Edad:16 Años</li>
+            <li>Email:Dantespatocco@hotmail.com</li>
+            <li>Tel Fijo:46710091</li>
+            <li>Tel:1130492498</li>
+
+        </ul>
+    </div>
+    <div class="cajaRoja2" id="Formacion">
+        <h1>Formación</h1>
+        <h2>Juan Pedro Esnaola</h2>
+        <p>Voy por el 4to año de Bachillerato y Plan Interprete en la secundaria</p>
+        <p>2016-2017:Certificado de CLE en lenguas Francesas</p>
+        <p> </p>
+
+    </div>
+    <div class="cajaRoja3" id="Experiencia">
+        <h1>Experiencia</h1>
+
+        <ul class="exp">
+            <li>2017:"coro de la Cantata de Francisco Isally" participe para el disco como Contrabajo</li>
+            <li>2016:"Orquesta juvenil de Florencio Varela" Estuve como 2do violin por 2 meses</li>
+            <li>2010:"coro infantil del parque avellaneda" Estuve como contra alto por dos meses</li>
+        </ul>
+
+    </div>
+
+    <div class="cajaRoja4" id="Portfolio">
+        <h1>Portfolio</h1>
+
+        <div class="slider">
+
+            <ul>
+                <li>Proximamente Proyecto JavaScript</li>
+                <li>Proximamente Proyecto JavaScript</li>
+                <li>Proximamente Proyecto JavaScript</li>
+            </ul>
+
+        </div>
+
+    </div>
+    <script { constructor() { } }>
+        jQuery(document).ready(function($) {
+            $('.slider').unslider({
+                arrows: false,
+                autoplay: true
+
+            });
+        });
+    </script>
+</body>
+
+</html>
